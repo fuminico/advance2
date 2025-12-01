@@ -45,6 +45,7 @@ body {
     line-height: 1.7;
     background: var(--color-bg);
     overflow-x: hidden;
+    font-size: 18px; /* 基本フォントサイズ（16px × 1.125 = 18px） 本文サイズ */
 }
 
 img {
@@ -61,6 +62,55 @@ a {
 
 ul {
     list-style: none;
+}
+
+/* 見出しと段落のフォントサイズ階層 */
+h1 {
+    font-size: 2.5rem; /* 45px: 最大の見出し */
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem; /* 36px: セクション見出し */
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem; /* 27px: サブセクション見出し */
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+}
+
+h4 {
+    font-size: 1.25rem; /* 22.5px: 小見出し */
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 1.1rem; /* 19.8px */
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+h6 {
+    font-size: 1rem; /* 18px */
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem; /* 18px: 基本本文サイズ */
+    line-height: 1.8;
+    margin-bottom: 1rem;
 }
 
 /* コンテナ */
@@ -83,7 +133,7 @@ ul {
     align-items: center;
     gap: 0.5rem;
     list-style: none;
-    font-size: 0.9rem;
+    font-size: 1rem; /* 18px: 読みやすいサイズに */
 }
 
 .breadcrumb-list li {
@@ -141,7 +191,7 @@ ul {
     font-family: var(--font-en);
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--color-primary);
+    color: #EC4899;
     letter-spacing: 0.05em;
 }
 
@@ -152,7 +202,7 @@ ul {
 }
 
 .nav-link {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     font-weight: 500;
     color: var(--color-text);
     padding: 0.5rem 0;
@@ -175,7 +225,7 @@ ul {
 }
 
 .nav-link-cta {
-    background: var(--color-primary);
+    background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
     color: white;
     padding: 0.6rem 1.5rem;
     border-radius: 50px;
@@ -186,7 +236,7 @@ ul {
 }
 
 .nav-link-cta:hover {
-    background: var(--color-primary-dark);
+    background: linear-gradient(135deg, #DB2777 0%, #EC4899 100%);
     transform: translateY(-2px);
 }
 
@@ -237,7 +287,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.8) 0%, rgba(16, 185, 129, 0.6) 100%);
+    background: linear-gradient(135deg, rgba(251, 207, 232, 0.5) 0%, rgba(254, 240, 251, 0.4) 100%);
     z-index: 1;
 }
 
@@ -251,18 +301,18 @@ ul {
 }
 
 .hero-title {
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(2.5rem, 5vw, 4.5rem); /* スクロールなしで収まるサイズに調整 */
     font-weight: 700;
     line-height: 1.3;
     margin-bottom: var(--spacing-md);
 }
 
 .hero-title .highlight {
-    color: var(--color-accent);
+    color: #EC4899;
 }
 
 .hero-description {
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem); /* スクロールなしで収まるサイズに調整 */
     line-height: 1.8;
     margin-bottom: var(--spacing-lg);
     opacity: 0.95;
@@ -286,7 +336,7 @@ ul {
     align-items: center;
     gap: 0.5rem;
     color: white;
-    font-size: 0.75rem;
+    font-size: 1rem;
     letter-spacing: 0.1em;
 }
 
@@ -320,14 +370,14 @@ ul {
 }
 
 .btn-primary {
-    background: var(--color-primary);
+    background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
     color: white;
 }
 
 .btn-primary:hover {
-    background: var(--color-primary-dark);
+    background: linear-gradient(135deg, #DB2777 0%, #EC4899 100%);
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 10px 25px rgba(236, 72, 153, 0.3);
 }
 
 .btn-outline {
@@ -338,7 +388,7 @@ ul {
 
 .btn-outline:hover {
     background: white;
-    color: var(--color-primary);
+    color: #EC4899;
 }
 
 .btn-outline-white {
@@ -389,7 +439,7 @@ ul {
 }
 
 .section-title {
-    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-size: clamp(2rem, 4vw, 3rem); /* 見出しを大きく：36px〜48px */
     font-weight: 700;
     color: var(--color-text);
     margin-bottom: var(--spacing-sm);
@@ -410,7 +460,7 @@ ul {
 }
 
 .section-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.2rem; /* 20px程度：本文より少し大きく */
     color: var(--color-text-light);
     margin-top: var(--spacing-md);
 }
@@ -511,7 +561,7 @@ ul {
     padding-left: 1.5rem;
     position: relative;
     color: var(--color-text-light);
-    font-size: 0.95rem;
+    font-size: 1.05rem;
 }
 
 .service-features li::before {
@@ -624,7 +674,7 @@ ul {
     background: var(--color-primary);
     color: white;
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -653,7 +703,7 @@ ul {
     background: var(--color-bg-gray);
     color: var(--color-text-light);
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 
 /* ================================
@@ -723,7 +773,7 @@ ul {
 
 .flow-description {
     color: var(--color-text-light);
-    font-size: 0.9rem;
+    font-size: 1rem; /* 18px: 本文サイズに */
     line-height: 1.6;
     width: 100%;
     overflow: hidden;
@@ -844,7 +894,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(16, 185, 129, 0.8) 100%);
+    background: linear-gradient(135deg, rgba(251, 207, 232, 0.6) 0%, rgba(254, 240, 251, 0.5) 100%);
     z-index: 1;
 }
 
@@ -878,7 +928,7 @@ ul {
 }
 
 .cta-note {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     opacity: 0.9;
 }
 
@@ -1035,19 +1085,19 @@ ul {
 .form-label {
     font-weight: 600;
     color: var(--color-text);
-    font-size: 0.95rem;
+    font-size: 1.05rem;
 }
 
 .required {
     color: #EF4444;
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-left: 0.3rem;
 }
 
 .optional {
     color: var(--color-text-light);
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-left: 0.3rem;
 }
@@ -1092,7 +1142,7 @@ ul {
     align-items: center;
     gap: 0.5rem;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -1117,7 +1167,7 @@ ul {
 
 .error-message {
     color: #EF4444;
-    font-size: 0.85rem;
+    font-size: 1rem;
     margin-top: 0.3rem;
 }
 
@@ -1190,7 +1240,7 @@ ul {
 }
 
 .info-note {
-    font-size: 0.9rem;
+    font-size: 1rem; /* 18px: 本文サイズに */
     color: var(--color-text-light);
 }
 
@@ -1309,7 +1359,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.85) 0%, rgba(16, 185, 129, 0.7) 100%);
+    background: linear-gradient(135deg, rgba(251, 207, 232, 0.55) 0%, rgba(254, 240, 251, 0.45) 100%);
     z-index: 1;
 }
 
@@ -1317,20 +1367,21 @@ ul {
     position: relative;
     z-index: 2;
     text-align: center;
-    color: white;
+    color: #1F2937;
     max-width: 800px;
 }
 
 .service-category-badge {
     display: inline-block;
     padding: 0.5rem 1.5rem;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 50px;
-    font-size: 0.9rem;
+    font-size: 1rem; /* 18px: 読みやすく */
     font-weight: 600;
     margin-bottom: 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(236, 72, 153, 0.3);
+    color: #EC4899;
 }
 
 .service-hero-title {
@@ -1446,7 +1497,7 @@ ul {
     background: var(--color-bg-gray);
     color: var(--color-text);
     border-radius: 8px;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     font-weight: 500;
     transition: var(--transition);
 }
@@ -1483,10 +1534,10 @@ ul {
 .step-number {
     display: inline-block;
     padding: 0.5rem 1.2rem;
-    background: var(--color-primary);
+    background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
     color: white;
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 700;
     font-family: var(--font-en);
     margin-bottom: 1.2rem;
@@ -1514,7 +1565,7 @@ ul {
     padding: 2rem;
     border-radius: 12px;
     margin-bottom: 3rem;
-    border-left: 4px solid var(--color-primary);
+    border-left: 4px solid #EC4899;
 }
 
 .pricing-note p {
@@ -1559,7 +1610,7 @@ ul {
 
 .pricing-desc {
     color: var(--color-text-light);
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     line-height: 1.6;
 }
 
@@ -1569,7 +1620,7 @@ ul {
 }
 
 .cta-box {
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+    background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
     padding: 4rem 3rem;
     border-radius: 20px;
     text-align: center;
