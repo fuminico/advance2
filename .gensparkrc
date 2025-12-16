@@ -1,0 +1,12 @@
+{
+  "entryPoint": "index.html",
+  "rootDirectory": ".",
+  "exclude": ["wordpress-package/**", "temp/**", "*.md"],
+  "staticDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
+}
