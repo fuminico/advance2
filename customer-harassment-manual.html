@@ -253,8 +253,15 @@
     <script>
         // PDFビューアーを初期化
         document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOMContentLoaded fired');
+            console.log('pdfjsLib available:', typeof pdfjsLib !== 'undefined');
+            console.log('initPDFViewer available:', typeof initPDFViewer === 'function');
+
             if (typeof initPDFViewer === 'function') {
-                initPDFViewer('pdfs/advance-manual.pdf');
+                console.log('Initializing PDF viewer with path: ./pdfs/advance-manual.pdf');
+                initPDFViewer('./pdfs/advance-manual.pdf');
+            } else {
+                console.error('initPDFViewer function not found');
             }
         });
     </script>
