@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css?v=20250126e">
+    <link rel="stylesheet" href="./css/style.css?v=20250117a">
 </head>
 <body>
     <!-- ヘッダー -->
@@ -102,11 +102,61 @@
                         <p>以下より、社内向けカスタマーハラスメント対応マニュアルを確認できます。日常業務に関わる重要な内容となりますので、必ず内容をご確認ください。</p>
                     </div>
 
-                    <div class="manual-link-box">
-                        <div class="manual-link-content">
-                            <h3 class="manual-link-title">カスタマーハラスメント対応マニュアル（社内専用）</h3>
-                            <p class="manual-link-description">当社のカスタマーハラスメントに関する基本的な考え方と対応方針をご確認いただけます。</p>
-                            <a href="harassment-policy.html" class="btn btn-primary btn-lg">基本方針を確認する</a>
+                    <!-- PDF.js カスタムビューアー -->
+                    <div class="pdf-viewer-container">
+                        <div class="pdf-viewer-header">
+                            <h3>カスタマーハラスメント対応マニュアル（社内専用）</h3>
+                            <p>以下のPDFで詳細な対応マニュアルをご確認いただけます。</p>
+                        </div>
+                        
+                        <!-- PDFコントロールバー -->
+                        <div class="pdf-controls">
+                            <div class="pdf-controls-left">
+                                <button id="prev" class="pdf-btn" title="前のページ">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="15 18 9 12 15 6"></polyline>
+                                    </svg>
+                                </button>
+                                <span class="pdf-page-info">
+                                    <span id="page_num">1</span> / <span id="page_count">--</span>
+                                </span>
+                                <button id="next" class="pdf-btn" title="次のページ">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="pdf-controls-right">
+                                <button id="zoom-out" class="pdf-btn" title="縮小">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <line x1="8" y1="11" x2="14" y2="11"></line>
+                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                    </svg>
+                                </button>
+                                <button id="zoom-in" class="pdf-btn" title="拡大">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <line x1="11" y1="8" x2="11" y2="14"></line>
+                                        <line x1="8" y1="11" x2="14" y2="11"></line>
+                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- PDFキャンバス -->
+                        <div class="pdf-canvas-wrapper">
+                            <div id="pdf-loading" class="pdf-loading">
+                                <div class="spinner"></div>
+                                <p>PDFを読み込み中...</p>
+                            </div>
+                            <canvas id="pdf-canvas"></canvas>
+                        </div>
+                        
+                        <div class="pdf-viewer-footer">
+                            <p><small>※ PDFが表示されない場合は、<a href="https://www.genspark.ai/api/files/s/yFhwsShg" target="_blank" rel="noopener noreferrer" class="text-link">こちらから直接ダウンロード</a>してご覧ください。</small></p>
+                            <p style="margin-top: 1rem;"><a href="harassment-policy.html" class="btn btn-outline">基本方針ページを確認する</a></p>
                         </div>
                     </div>
 
@@ -120,6 +170,7 @@
                     <div class="content-text">
                         <p>今後も、働きやすい業務環境の維持・向上に向け、皆さまのご理解とご協力をお願いいたします。</p>
                         <p style="text-align: center; margin-top: 2rem;"><strong>以上</strong></p>
+                        <p style="text-align: center; margin-top: 1.5rem; font-weight: 600; color: var(--color-text);">周知日：2025年12月16日</p>
                     </div>
                 </div>
             </div>
@@ -193,5 +244,19 @@
     </footer>
 
     <script src="js/main.js"></script>
+    
+    <!-- PDF.js ライブラリ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    
+    <!-- カスタムPDFビューアー -->
+    <script src="js/pdf-viewer.js?v=20250117a"></script>
+    <script>
+        // PDFビューアーを初期化
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof initPDFViewer === 'function') {
+                initPDFViewer('https://www.genspark.ai/api/files/s/yFhwsShg');
+            }
+        });
+    </script>
 </body>
 </html>
