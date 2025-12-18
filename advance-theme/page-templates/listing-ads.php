@@ -1,0 +1,358 @@
+<?php
+/**
+ * Template Name: リスティング広告運用
+ * Template Post Type: page
+ * Description: リスティング広告運用ページテンプレート
+ */
+
+get_header(); ?>
+
+<!-- ヘッダー -->
+    
+
+    <!-- サービスヒーロー -->
+    <section class="service-hero">
+        <div class="service-hero-overlay"></div>
+        <div class="service-hero-bg" style="background-image: url(<?php echo advance_get_image_url('hero-listing-ads.jpg'); ?>);"></div>
+        <div class="container">
+            <div class="service-hero-content">
+                <div class="service-category-badge">WEBマーケティング事業</div>
+                <h1 class="service-hero-title">リスティング広告運用代行</h1>
+                <p class="service-hero-description">
+                    成果を更に伸ばす継続改善型の運用を設計。<br>
+                    キーワード・広告文・LPを連動させ精度高く改善を継続し、AI最適化時代に成果を生み出す構造を設計します。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- サービス概要 -->
+    <section class="section service-overview">
+        <div class="container">
+            <div class="service-intro">
+                <h2 class="section-title">単なる広告管理ではなく、成果を更に伸ばす継続改善型の運用</h2>
+                <p class="service-intro-text">
+                    当社が提供する<strong>リスティング広告運用代行</strong>サービスは、単なる広告管理ではなく、<strong>成果を更に伸ばす継続改善型の運用を設計</strong>することを目的としています。<br><br>
+                    
+                    このサービスは、<strong>キーワード・広告文・LPを連動させ精度高く改善を継続</strong>し、<strong>AI最適化時代に成果を生み出す構造を設計</strong>します。<br><br>
+                    
+                    リスティング広告の運用代行とは、Google広告やYahoo広告、Microsoft広告といった主要なWEB広告を、運用専門の広告会社に一括して依頼するサービスです。リスティング広告は主に<strong>顕在層</strong>に向けた検索エンジン上での広告出稿による成果獲得を得意とする手法です。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 解決する課題 -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">リスティング広告運用代行で解決する課題</h2>
+            <p class="section-subtitle">お客様が抱える本質的な課題を解決し、売上・利益の最大化を目指します</p>
+            
+            <!-- 課題イメージ画像（右に配置） -->
+            <div style="display: grid; grid-template-columns: 1fr 45%; gap: 4rem; align-items: center; margin-bottom: 4rem;">
+                <div>
+                    <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 1rem;">広告費の無駄と成果不足を解決</h3>
+                    <p style="color: var(--color-text-light); line-height: 1.8;">
+                        レポートが数字の説明だけで改善提案がない、CPAが高止まりしている、LP改善の根本的な対策がないといった課題を、継続改善型の運用で解決します。
+                    </p>
+                </div>
+                <div>
+                    <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);">
+                        <img src="<?php echo advance_get_image_url('other-19.jpg'); ?>" alt="リスティング広告の課題解決" style="width: 100%; height: auto; display: block;">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #FEE2E2; color: #DC2626;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 11l3 3L22 4"></path>
+                            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">レポート内容の課題</h3>
+                    <p class="feature-description">レポートが数字の説明だけで<strong>改善提案がない</strong>。</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #FCE7F3; color: #EC4899;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">効率の課題</h3>
+                    <p class="feature-description">CPA（顧客獲得単価）が高止まりし、<strong>入札調整ばかりで伸びない</strong>。</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #D1FAE5; color: #059669;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">改善の課題</h3>
+                    <p class="feature-description"><strong>LP改善を含めた本質的な改善</strong>ができていない。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特長 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">当社のリスティング広告運用代行の特長</h2>
+            <p class="section-subtitle">広告運用力、高度な分析力、そしてクリエイティブ制作機能の内包という3つの側面で、成果の最大化を実現します</p>
+            
+            <!-- 2.1. 卓越した運用力と専門性 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    卓越した運用力と専門性
+                </h3>
+                
+                <!-- 専門的な運用ノウハウの画像（左に配置） -->
+                <div style="display: grid; grid-template-columns: 45% 1fr; gap: 3rem; align-items: center; margin-bottom: 3rem;">
+                    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);">
+                        <img src="<?php echo advance_get_image_url('other-20.jpg'); ?>" alt="専門的なリスティング広告運用" style="width: 100%; height: auto; display: block;">
+                    </div>
+                    <div>
+                        <h4 style="font-size: 1.3rem; font-weight: 600; color: var(--color-text); margin-bottom: 1rem;">専門的な運用ノウハウ</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            Google広告、Yahoo広告の運用に特化した専門チームが、最新の情報と確かな実績で成果を最大化します。
+                        </p>
+                    </div>
+                </div>
+                
+                <div style="display: grid; gap: 2rem;">
+                    <div style="border-left: 4px solid var(--color-primary); padding-left: 1.5rem;">
+                        <h4 style="font-size: 1.2rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">継続的な技術習得と最適化</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            当社の専門チームは、<strong style="color: var(--color-primary);">Google広告</strong>、<strong style="color: var(--color-primary);">Yahoo広告</strong>の最新技術を継続的に習得し、媒体との緊密な連携と最新の情報に基づいて、広告成果とビジネス利益を最大化します。
+                        </p>
+                    </div>
+
+                    <div style="border-left: 4px solid var(--color-accent); padding-left: 1.5rem;">
+                        <h4 style="font-size: 1.2rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">専門家による運用</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            社内の運用担当者は<strong>Google広告、Yahoo広告の運用に精通した専門家</strong>です。さらに、広告以外の<strong>マーケティング、クリエイティブ</strong>にも知見を持つ、総合的な付加価値の高い人材が運用を担当します。
+                        </p>
+                    </div>
+
+                    <div style="border-left: 4px solid #F59E0B; padding-left: 1.5rem;">
+                        <h4 style="font-size: 1.2rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">業界知見の蓄積</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            BtoB/BtoC、大企業/中小企業を問わず、創業以来着実に運用代行の実績を積み重ねています。リスティング広告には<strong>業界ごとに運用の成功パターン</strong>があり、それを把握した上での運用は改善が容易になります。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2.2. 高度な分析と改善 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    高度な分析と改善（広告管理画面外の数字分析）
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    当社は<strong>マーケティング会社</strong>であるため、広告管理画面の数字に留まらず、成果に関係する様々な要因を分析し改善を実行します。
+                </p>
+
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; background: white;">
+                        <thead>
+                            <tr style="background: var(--color-bg-gray);">
+                                <th style="padding: 1rem; text-align: left; font-weight: 600; border: 1px solid var(--color-border);">分析内容</th>
+                                <th style="padding: 1rem; text-align: left; font-weight: 600; border: 1px solid var(--color-border);">実施ツール/手法</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">リスティング広告の成果分析・CV確認</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);"><strong>GA4</strong></td>
+                            </tr>
+                            <tr style="background: var(--color-bg-gray);">
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">LPの分析・改善</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);"><strong style="color: var(--color-primary);">ヒートマップ活用</strong></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">競合分析・市場分析</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">各種ツール</td>
+                            </tr>
+                            <tr style="background: var(--color-bg-gray);">
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">売上に対する貢献度分析</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">貢献寄与分析</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 2.3. クリエイティブ改善との連携 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    クリエイティブ改善との連携（1社完結体制）
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    リスティング広告の成果最大化には、広告からの遷移先であるLPやバナーの制作・改善が不可欠です。
+                </p>
+
+                <div style="display: grid; gap: 2rem;">
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <span style="display: inline-block; width: 8px; height: 8px; background: var(--color-primary); border-radius: 50%;"></span>
+                            内製体制の強み
+                        </h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            当社では、<strong>ノウハウ・制作機能ごと社内に内包</strong>しています。LP、バナー、ホームページ（WEBサイト）の分析・改善、ABテストまでを1社完結で行うことで効果を最大限発揮します。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <span style="display: inline-block; width: 8px; height: 8px; background: var(--color-accent); border-radius: 50%;"></span>
+                            連携
+                        </h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            <strong>広告効果に精通した社内の制作チーム</strong>と連携し、LP・バナー改善で広告の成果を最大化します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 運用スタンスと体制 -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">当社の運用スタンスと体制</h2>
+            <p class="section-subtitle">単にCV数やCPAの最適化といった広告管理画面内の成果を最大化するだけでなく、その先にある貴社ビジネスの利益の最大化という「1つ上の視点」を追求します</p>
+            
+            <!-- 比較表 -->
+            <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem; overflow-x: auto;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr style="background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%); color: white;">
+                            <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2);">比較項目</th>
+                            <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2);">一般的なリスティング広告運用代行会社</th>
+                            <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2); background: #F472B6;">当社のリスティング広告運用代行</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">大前提</td>
+                            <td style="padding: 1rem; border: 1px solid var(--color-border);">CV数の最大化・CPAの最適化</td>
+                            <td style="padding: 1rem; border: 1px solid var(--color-border); background: #FCE7F3;">CV数の最大化・CPAの最適化</td>
+                        </tr>
+                        <tr style="background: var(--color-bg-gray);">
+                            <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">1つ上の視点</td>
+                            <td style="padding: 1rem; border: 1px solid var(--color-border); color: var(--color-text-light);">（記載なし）</td>
+                            <td style="padding: 1rem; border: 1px solid var(--color-border); background: #FBCFE8;"><strong style="color: #EC4899;">広告成果後の貴社ビジネスの利益の最大化</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-left: 5px solid var(--color-primary);">
+                <p style="font-size: 1.1rem; color: var(--color-text); line-height: 1.8;">
+                    当社は、<strong style="color: var(--color-primary);">運用代行費用以上の成果を返すこと</strong>に努めるスタンスです。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 改善事例 -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">リスティング広告運用代行の改善事例</h2>
+            <p class="section-subtitle">実際の改善結果をご紹介します</p>
+            
+            <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); overflow-x: auto;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr style="background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%); color: white;">
+                            <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2); width: 15%;">事例</th>
+                            <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2); width: 15%;">業種</th>
+                            <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2); width: 35%;">実施内容</th>
+                            <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2); width: 35%;">改善結果</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 1.2rem; border: 1px solid var(--color-border); font-weight: 600; color: var(--color-primary);">CASE 1</td>
+                            <td style="padding: 1.2rem; border: 1px solid var(--color-border);">日用品メーカー</td>
+                            <td style="padding: 1.2rem; border: 1px solid var(--color-border);">配信構造・訴求軸・LPを包括的に再設計。ヒートマップ分析で導線を再構築。</td>
+                            <td style="padding: 1.2rem; border: 1px solid var(--color-border); background: #ECFDF5;"><strong style="color: #EC4899;">CV数約3.5倍、CPA約70％改善</strong></td>
+                        </tr>
+                        <tr style="background: var(--color-bg-gray);">
+                            <td style="padding: 1.2rem; border: 1px solid var(--color-border); font-weight: 600; color: var(--color-primary);">CASE 2</td>
+                            <td style="padding: 1.2rem; border: 1px solid var(--color-border);">消費財メーカー</td>
+                            <td style="padding: 1.2rem; border: 1px solid var(--color-border);">検索クエリ分析から高CV効率キーワードへ配信を再集中。動画・デマンドジェネレーション広告など複数メニューを組み合わせてクロスチャネルで接触精度を向上。</td>
+                            <td style="padding: 1.2rem; border: 1px solid var(--color-border); background: #ECFDF5;"><strong style="color: #EC4899;">CPA55％改善、CV2倍達成</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="margin-top: 3rem; background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center;">
+                <p style="font-size: 1.1rem; color: var(--color-text); line-height: 1.8; margin-bottom: 1.5rem;">
+                    これらの事例のように、当社は広告運用だけでなく、<strong style="color: var(--color-primary);">LP改善、ヒートマップ分析、クロスチャネル戦略</strong>まで包括的に実施することで、<strong style="color: #EC4899;">大幅な成果改善</strong>を実現しています。
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA画像（左に配置） -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 45% 1fr; gap: 4rem; align-items: center;">
+                <div>
+                    <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);">
+                        <img src="<?php echo advance_get_image_url('cta-listing-ads.jpg'); ?>" alt="リスティング広告運用のご相談" style="width: 100%; height: auto; display: block;">
+                    </div>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.8rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">成功への一歩を踏み出しませんか？</h3>
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 1.5rem;">
+                        継続改善型の運用で、広告成果を最大化します。まずは無料分析で現状を診断いたします。
+                    </p>
+                    <ul style="color: var(--color-text-light); line-height: 2; list-style: none; padding-left: 0;">
+                        <li style="padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--color-accent);">✓</span>
+                            無料分析実施中
+                        </li>
+                        <li style="padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--color-accent);">✓</span>
+                            運用会社乗り換え歓迎
+                        </li>
+                        <li style="padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: var(--color-accent);">✓</span>
+                            自社アカウントでの運用可能
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section service-cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2 class="cta-box-title">リスティング広告運用のご相談はこちら</h2>
+                <p class="cta-box-description">
+                    成果を更に伸ばす継続改善型の運用を体験しませんか？<br>
+                    無料分析も実施していますので、まずはお気軽にご相談ください。
+                </p>
+                <div class="cta-buttons">
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_path( 'contact' ) ) ); ?>" class="btn btn-primary btn-lg">お問い合わせ・無料相談</a>
+                    <a href="<?php echo esc_url( get_permalink( get_page_by_path( 'service-marketing' ) ) ); ?>" class="btn btn-outline btn-lg">WEBマーケティング事業一覧へ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+
+<?php get_footer(); ?>

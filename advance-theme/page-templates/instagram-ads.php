@@ -1,0 +1,421 @@
+<?php
+/**
+ * Template Name: Instagram広告運用
+ * Template Post Type: page
+ * Description: Instagram広告運用ページテンプレート
+ */
+
+get_header(); ?>
+
+<!-- ヘッダー -->
+    
+
+    <!-- サービスヒーロー -->
+    <section class="service-hero">
+        <div class="service-hero-overlay"></div>
+        <div class="service-hero-bg" style="background-image: url(<?php echo advance_get_image_url('hero-instagram-ads.jpg'); ?>);"></div>
+        <div class="container">
+            <div class="service-hero-content">
+                <div class="service-category-badge">WEBマーケティング事業</div>
+                <h1 class="service-hero-title">Instagram広告運用代行</h1>
+                <p class="service-hero-description">
+                    クリエイティブ設計とデータ検証で成果を伸ばす。<br>
+                    AIアルゴリズムを制御しABテストで最適解を検証、反応データとデザインを検証しクリエイティブを継続改善します。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- サービス概要 -->
+    <section class="section service-overview">
+        <div class="container">
+            <div class="service-intro">
+                <h2 class="section-title">単なる広告管理ではなく、クリエイティブ設計とデータ検証で成果を伸ばす</h2>
+                <p class="service-intro-text">
+                    当社が提供する<strong>Instagram広告運用代行</strong>サービスは、単なる広告管理ではなく、<strong>クリエイティブ設計とデータ検証で成果を伸ばす</strong>ことを目的としています。<br><br>
+                    
+                    具体的には、<strong>AIアルゴリズムを制御しABテストで最適解を検証</strong>すること、そして<strong>反応データとデザインを検証しクリエイティブを継続改善</strong>することで、広告出稿成果を最大化します。<br><br>
+                    
+                    Instagram広告の運用は、Meta社の管理画面からの設定作業や、ターゲット選定、媒体特有のクリエイティブノウハウが求められるため、初心者が成果を最大化することは難易度が高いです。当運用代行サービスでは、これらの知見・ノウハウを活用し、広告出稿からクリエイティブ制作まで<strong>ワンストップでサポート</strong>します。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 解決する課題 -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">Instagram広告運用代行で解決する課題</h2>
+            <p class="section-subtitle">主に以下の3つの「お悩み」を解決します</p>
+            
+            <div class="service-features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #FEE2E2; color: #DC2626;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">課題 01</h3>
+                    <p class="feature-description">訴求軸が固定化し、ターゲットの反応が<strong>鈍化している</strong>。</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #FCE7F3; color: #EC4899;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">課題 02</h3>
+                    <p class="feature-description">デザインはきれいだが、成果につながらない<strong>クリエイティブ</strong>になっている。</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #D1FAE5; color: #059669;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">課題 03</h3>
+                    <p class="feature-description">LP・導線の設計が弱く、<strong>クリック後の離脱が多い</strong>。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- クリエイティブとデータ検証 -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">クリエイティブ設計とデータ検証</h2>
+            <p class="section-subtitle">AIアルゴリズム制御とA/Bテストで継続的に成果向上</p>
+            
+            <!-- 画像左+説明文右の横並びレイアウト -->
+            <div style="display: flex; gap: 4rem; align-items: center; background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <div style="flex: 0 0 45%;">
+                    <img src="<?php echo advance_get_image_url('general-image.jpg'); ?>" alt="Instagram広告のクリエイティブ設計とデータ検証イメージ" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">デザインとデータの両輪で成果最大化</h3>
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 1.5rem;">
+                        AIアルゴリズムを制御して広告出力を最大化し、A/Bテストで最適解を検証。反応データとデザイン検証からクリエイティブを継続的に改善します。広告配信からクリエイティブ制作までワンストップでサポートし、訴求軸の固定化を防ぎ、常に新鮮な訴求で成果を向上させます。
+                    </p>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="color: var(--color-accent); margin-right: 0.5rem;">✓</span>
+                            <span style="color: var(--color-text-light);">AIアルゴリズム制御で広告出力を最大化</span>
+                        </li>
+                        <li style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="color: var(--color-accent); margin-right: 0.5rem;">✓</span>
+                            <span style="color: var(--color-text-light);">A/Bテストで最適解を検証</span>
+                        </li>
+                        <li style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="color: var(--color-accent); margin-right: 0.5rem;">✓</span>
+                            <span style="color: var(--color-text-light);">反応データからクリエイティブを継続改善</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram広告の特徴とターゲティング -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Instagram広告の特徴とターゲティング</h2>
+            <p class="section-subtitle">写真や動画の共有アプリであるInstagram上で展開される広告であり、そのビジュアル中心の特性と高いターゲティング精度が特徴です</p>
+            
+            <!-- 2.1. 高いターゲティング精度 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    高いターゲティング精度で広告配信ができる
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    Instagram広告は、ユーザーの詳細な属性、興味関心、行動履歴などのデータを活用し、<strong>精密なターゲティングが可能</strong>です。
+                </p>
+
+                <div style="display: grid; gap: 1.5rem;">
+                    <div style="background: var(--color-bg-gray); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">設定可能な条件</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            年齢、性別、居住地といった基本情報から、趣味嗜好、購買行動、職業などの詳細な条件まで設定できます。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--color-accent);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">オーディエンス機能</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            類似オーディエンスやカスタムオーディエンス機能を使用することで、既存の顧客に似た特性を持つ新規ユーザーへのアプローチも可能になります。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #F59E0B;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">可能なターゲティングの一例</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            地域、年齢、性別、ライフイベント、興味・関心、端末情報、行動、つながり、学歴/職歴などがあります。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2.2. ビジュアルによる効果的なブランディング -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    ビジュアルによる効果的なブランディング
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8;">
+                    Instagramはビジュアルコンテンツが中心のプラットフォームであり、魅力的な画像や動画を通じてブランドイメージを<strong>効果的に伝えることができます</strong>。ストーリーやフィード、リールなど、ユーザーが日常的に接する部分にブランドを自然に溶け込ませることで、ブランド認知度の向上やイメージ構築に寄与します。
+                </p>
+            </div>
+
+            <!-- 2.3. 多彩な広告フォーマット -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    目的に合わせた多彩な広告フォーマット
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2.5rem;">
+                    Instagram広告は、目的やコンテンツの種類に応じて最適な広告形式を選択し、ユーザーに最適な広告を発信できるよう、様々なフォーマットを提供しています。
+                </p>
+
+                <h4 style="font-size: 1.2rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">配信面の種類</h4>
+                <div style="display: grid; gap: 1.2rem; margin-bottom: 3rem;">
+                    <div style="display: flex; gap: 1rem; background: var(--color-bg-gray); padding: 1.2rem; border-radius: 8px;">
+                        <div style="flex: 0 0 auto; width: 40px; height: 40px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">1</div>
+                        <div style="flex: 1;">
+                            <h5 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">フィード広告</h5>
+                            <p style="color: var(--color-text-light); line-height: 1.7; font-size: 1.05rem;">ユーザーのメインフィードに表示され、通常の投稿と同じように表示されます。画像、動画、カルーセルなど多様なフォーマットに対応し、自然な形で広告を届けられます。</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; background: var(--color-bg-gray); padding: 1.2rem; border-radius: 8px;">
+                        <div style="flex: 0 0 auto; width: 40px; height: 40px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">2</div>
+                        <div style="flex: 1;">
+                            <h5 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">ストーリーズ広告</h5>
+                            <p style="color: var(--color-text-light); line-height: 1.7; font-size: 1.05rem;">24時間で消える全画面表示のストーリーズに挿入される広告で、短時間で強いインパクトを与え、スワイプアップ機能でウェブサイトへの誘導も可能です。</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; background: var(--color-bg-gray); padding: 1.2rem; border-radius: 8px;">
+                        <div style="flex: 0 0 auto; width: 40px; height: 40px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">3</div>
+                        <div style="flex: 1;">
+                            <h5 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">リール広告</h5>
+                            <p style="color: var(--color-text-light); line-height: 1.7; font-size: 1.05rem;">短尺縦型動画のリールに表示される広告で、エンターテイメント性が高く、若年層へのリーチに効果的です。</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; background: var(--color-bg-gray); padding: 1.2rem; border-radius: 8px;">
+                        <div style="flex: 0 0 auto; width: 40px; height: 40px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">4</div>
+                        <div style="flex: 1;">
+                            <h5 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">発見タブ広告</h5>
+                            <p style="color: var(--color-text-light); line-height: 1.7; font-size: 1.05rem;">ユーザーが新しいコンテンツを探索する発見タブに表示される広告で、興味関心に基づいてターゲティングでき、新規ユーザーの獲得に適しています。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 style="font-size: 1.2rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">クリエイティブの種類</h4>
+                <div style="display: grid; gap: 1.2rem;">
+                    <div style="display: flex; gap: 1rem; background: var(--color-bg-gray); padding: 1.2rem; border-radius: 8px;">
+                        <div style="flex: 0 0 auto; width: 40px; height: 40px; background: var(--color-accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">1</div>
+                        <div style="flex: 1;">
+                            <h5 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">画像広告</h5>
+                            <p style="color: var(--color-text-light); line-height: 1.7; font-size: 1.05rem;">単一の静止画像を使用し、シンプルで分かりやすいメッセージを伝えられます。</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; background: var(--color-bg-gray); padding: 1.2rem; border-radius: 8px;">
+                        <div style="flex: 0 0 auto; width: 40px; height: 40px; background: var(--color-accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">2</div>
+                        <div style="flex: 1;">
+                            <h5 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">動画広告</h5>
+                            <p style="color: var(--color-text-light); line-height: 1.7; font-size: 1.05rem;">最長60秒までの動画を使用し、商品のデモンストレーションやブランドストーリーの伝達など、詳細な情報や感情的な訴求が可能です。</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; background: var(--color-bg-gray); padding: 1.2rem; border-radius: 8px;">
+                        <div style="flex: 0 0 auto; width: 40px; height: 40px; background: var(--color-accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">3</div>
+                        <div style="flex: 1;">
+                            <h5 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">カルーセル広告</h5>
+                            <p style="color: var(--color-text-light); line-height: 1.7; font-size: 1.05rem;">最大10枚の画像や動画を横スワイプで表示できる形式で、商品ラインナップの紹介やステップバイステップの説明など、複数の要素を一度に伝えられます。</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; background: var(--color-bg-gray); padding: 1.2rem; border-radius: 8px;">
+                        <div style="flex: 0 0 auto; width: 40px; height: 40px; background: var(--color-accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">4</div>
+                        <div style="flex: 1;">
+                            <h5 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">コレクション広告</h5>
+                            <p style="color: var(--color-text-light); line-height: 1.7; font-size: 1.05rem;">メイン画像や動画の下に複数の商品画像を配置でき、ユーザーがタップすると全画面のカタログ表示となり、スムーズな商品探索と購買導線の構築が可能です。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最適な商材とユーザー層 -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">Instagram広告に最適な商材とユーザー層</h2>
+            <p class="section-subtitle">以下の特性を持つ商材やターゲット層へのアピールに最適です</p>
+            
+            <div class="service-features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #FCE7F3; color: #EC4899;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">消費者向けのサービスや商材</h3>
+                    <p class="feature-description">
+                        ユーザーの日常生活風景を閲覧することを目的としたプラットフォームであるため、広告もユーザーの日常生活に溶け込む形で表示され、自然な商品認知や興味喚起が可能です。そのため、<strong>消費者向けのサービス・商材</strong>に訴求しやすいです。
+                    </p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #FCE7F3; color: #DB2777;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 010 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">若年層、特に女性向けの商材に強い</h3>
+                    <p class="feature-description">
+                        主要ユーザーが<strong>10代後半から30代前半の女性</strong>であり、この層への到達率が極めて高いのが特徴です。ファッション、美容、グルメ、エンタメ、トラベルなどの分野に興味を持つユーザーが多いです。
+                    </p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon" style="background: #D1FAE5; color: #059669;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+                            <polyline points="17 2 12 7 7 2"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">ビジュアルで視覚的に見せる必要がある商材</h3>
+                    <p class="feature-description">
+                        画像や動画を中心とした構成により、商品の魅力を視覚的に強く訴求できます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 当社の運用代行の特長と体制 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">当社の運用代行の特長と体制</h2>
+            <p class="section-subtitle">広告効果を最大化する内製クリエイティブチームと豊富な運用実績</p>
+            
+            <!-- 4.1. 内製クリエイティブチーム -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    広告効果を最大化する内製クリエイティブチーム
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    Instagramはビジュアル型のプラットフォームであるため、広告自体もビジュアルでの訴求力が求められます。
+                </p>
+
+                <div style="display: grid; gap: 2rem;">
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">内製体制</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            当社では、広告に精通した<strong>社内のクリエイティブチーム</strong>を保持しています。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-accent);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">ワンストップ対応</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            広告自体の制作をはじめ、その遷移先であるLPの分析・改善、<strong>ABテストまで社内で1社完結</strong>で行うことで、広告の効果を最大限発揮します。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid #F59E0B;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">LP・バナー制作の重要性</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            バナー・LPともに広告の成果を高めるためのPDCAに必須の項目であり、当社はノウハウ・制作機能ごと社内に内包しているため、広告とクリエイティブの最大限の連動が可能です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4.2. 豊富な運用実績と統合戦略 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    豊富な運用実績と統合戦略
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    当社は、Instagram広告運用において豊富な実績を持ち、最新の広告手法とクリエイティブ戦略で成果を最大化します。
+                </p>
+
+                <div style="display: grid; gap: 1.5rem;">
+                    <div style="background: var(--color-bg-gray); padding: 1.5rem; border-radius: 8px;">
+                        <h4 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">最新の広告手法</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            Meta社との緊密な連携により、常に最新の広告手法を活用し、多様な業界のクライアントに効果的なサービスを提供しています。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 1.5rem; border-radius: 8px;">
+                        <h4 style="font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem;">複合媒体運用</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            Instagram広告に加えて、その他SNS広告、リスティング広告、DSPなど、多様な媒体を活用し成果を最大化する<strong>統合戦略を立案</strong>することが可能です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4.3. 分析と改善 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    分析と改善
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    広告からの遷移先となるLPの制作や改善まで対応できない、または外部パートナー依存で改善が弱い会社が多い中、当社では<strong>数値解析</strong>まで含めて対応します。
+                </p>
+
+                <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px;">
+                    <h4 style="font-weight: 600; color: var(--color-text); margin-bottom: 1rem;">解析内容</h4>
+                    <p style="color: var(--color-text-light); line-height: 1.8;">
+                        アクセス解析、<strong style="color: var(--color-primary);">ヒートマップ</strong>、その他必要に応じて各種解析を実施し、LP・バナー改善を通じて広告の成果を最大化します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section service-cta">
+        <div class="container">
+            <!-- CTA画像+文字の横並びレイアウト -->
+            <div style="display: flex; gap: 4rem; align-items: center; background: linear-gradient(135deg, #FCE7F3 0%, #FBCFE8 100%); padding: 4rem; border-radius: 12px;">
+                <div style="flex: 0 0 40%;">
+                    <img src="<?php echo advance_get_image_url('cta-consultation.jpg'); ?>" alt="Instagram広告運用のご相談イメージ" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
+                </div>
+                <div style="flex: 1;">
+                    <h2 style="font-size: 2rem; font-weight: 700; color: var(--color-text); margin-bottom: 1rem;">Instagram広告運用のご相談はこちら</h2>
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                        クリエイティブ設計とデータ検証で成果を伸ばす運用を体験しませんか？<br>
+                        まずはお気軽にご相談ください。無料でお見積もりいたします。
+                    </p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="<?php echo esc_url( get_permalink( get_page_by_path( 'contact' ) ) ); ?>" class="btn btn-primary btn-lg">お問い合わせ・無料相談</a>
+                        <a href="<?php echo esc_url( get_permalink( get_page_by_path( 'service-marketing' ) ) ); ?>" class="btn btn-outline btn-lg">WEBマーケティング事業一覧へ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+
+<?php get_footer(); ?>

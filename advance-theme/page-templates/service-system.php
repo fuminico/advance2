@@ -1,0 +1,505 @@
+<?php
+/**
+ * Template Name: システム開発事業
+ * Template Post Type: page
+ * Description: システム開発事業ページテンプレート
+ */
+
+get_header(); ?>
+
+<!-- ヘッダー -->
+    
+
+    <!-- サービスヒーロー -->
+    <section class="service-hero">
+        <div class="service-hero-overlay"></div>
+        <div class="service-hero-bg" style="background-image: url(<?php echo advance_get_image_url('hero-system.jpg'); ?>);"></div>
+        <div class="container">
+            <div class="service-hero-content">
+                <div class="service-category-badge">事業内容 01</div>
+                <h1 class="service-hero-title">システム開発事業</h1>
+                <p class="service-hero-description">
+                    企業の課題解決や特定の業務に特化した機能を提供するITソリューションの中核。<br>
+                    業務システム開発からプロダクト開発、AI活用まで幅広く対応します。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- サービス概要 -->
+    <section class="section service-overview">
+        <div class="container">
+            <div class="service-intro">
+                <h2 class="section-title">企業の課題解決や特定の業務に特化した機能を提供するITソリューション</h2>
+                <p class="service-intro-text">
+                    「システム開発」は、企業の課題解決や特定の業務に特化した機能を提供するITソリューションの中核をなすサービスです。<br><br>
+                    
+                    当社では、<strong>業務システム開発</strong>と<strong>プロダクト開発</strong>の2つの柱を中心に、お客様のビジネス成長を支援します。業界課題、お客様の課題、今後のビジョンなどを伺いながら、<strong>丁寧に開発</strong>を進めます。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI開発力の強み -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">最先端のAI技術を活用した開発力</h2>
+            <p class="section-subtitle">機械学習やディープラーニング技術を駆使した高度なシステム開発</p>
+            
+            <!-- 画像+説明文の横並びレイアウト -->
+            <div style="display: flex; gap: 4rem; align-items: center; background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 4rem;">
+                <div style="flex: 0 0 45%;">
+                    <img src="<?php echo advance_get_image_url('ai-development.jpg'); ?>" alt="AI技術を活用したシステム開発イメージ" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">AI技術による高度な機能実装</h3>
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 1.5rem;">
+                        ChatGPT、Gemini、Claudeなどの最新AI技術を活用し、業務効率化やデータ分析、自動化を実現します。機械学習モデルの構築から、自然言語処理、画像認識まで、幅広いAI技術に対応可能です。
+                    </p>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="color: var(--color-accent); margin-right: 0.5rem;">✓</span>
+                            <span style="color: var(--color-text-light);">生成AI統合による業務自動化</span>
+                        </li>
+                        <li style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="color: var(--color-accent); margin-right: 0.5rem;">✓</span>
+                            <span style="color: var(--color-text-light);">機械学習モデルの開発・導入</span>
+                        </li>
+                        <li style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="color: var(--color-accent); margin-right: 0.5rem;">✓</span>
+                            <span style="color: var(--color-text-light);">自然言語処理・画像認識システム</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h2 class="section-title" style="margin-top: 4rem;">システム開発および業務システム開発の概要</h2>
+            <p class="section-subtitle">2つの柱でお客様のビジネス成長を支援します</p>
+            
+            <!-- 1.1. 業務システム開発 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    業務システム開発
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    <strong>パッケージソフトウェアの販売・業務システム開発</strong>を提供しています。
+                </p>
+
+                <div style="display: grid; gap: 2rem;">
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">開発の視点</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            各業種業態に特化した業務に関して、お客様のシステム開発を支援します。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-accent);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">プロセス</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            業界課題、お客様の課題、今後のビジョンなどを伺いながら、<strong>丁寧に開発</strong>を進めます。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1.2. プロダクト開発 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    プロダクト開発
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    デザインと技術の融合による最高のプロダクトで、ユーザーのエンゲージメントを最大化することを目指しており、サービスの一つとして<strong>プロダクト開発</strong>を提供しています。
+                </p>
+
+                <div style="display: grid; gap: 2rem; margin-bottom: 3rem;">
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">実績</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            創業以来、スマートフォンアプリや業務システムの開発を手掛けており、<strong style="color: var(--color-primary); font-size: 1.1rem;">着実に実績を積み上げて</strong>います。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-accent);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">開発領域</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            業界を問わないウェブアプリやモバイルバックエンドの構築、クラウドを活用したAWS中心のサーバーインフラ開発も行います。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid #F59E0B;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">品質保証</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            専門のQAエンジニアによる<strong>品質保証</strong>も強みとしています。
+                        </p>
+                    </div>
+                </div>
+
+                <h4 style="font-size: 1.2rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">当社が提供するプロダクト開発の要素</h4>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                    <div style="background: #EFF6FF; padding: 1.2rem; border-radius: 8px; display: flex; align-items: center; gap: 0.8rem;">
+                        <div style="width: 8px; height: 8px; background: var(--color-primary); border-radius: 50%;"></div>
+                        <span style="color: var(--color-text); font-weight: 500;">スマートフォンアプリ開発</span>
+                    </div>
+                    <div style="background: #EFF6FF; padding: 1.2rem; border-radius: 8px; display: flex; align-items: center; gap: 0.8rem;">
+                        <div style="width: 8px; height: 8px; background: var(--color-primary); border-radius: 50%;"></div>
+                        <span style="color: var(--color-text); font-weight: 500;">ウェブアプリケーション／バックエンド開発</span>
+                    </div>
+                    <div style="background: #EFF6FF; padding: 1.2rem; border-radius: 8px; display: flex; align-items: center; gap: 0.8rem;">
+                        <div style="width: 8px; height: 8px; background: var(--color-primary); border-radius: 50%;"></div>
+                        <span style="color: var(--color-text); font-weight: 500;">インフラ構築</span>
+                    </div>
+                    <div style="background: #EFF6FF; padding: 1.2rem; border-radius: 8px; display: flex; align-items: center; gap: 0.8rem;">
+                        <div style="width: 8px; height: 8px; background: var(--color-primary); border-radius: 50%;"></div>
+                        <span style="color: var(--color-text); font-weight: 500;">品質管理</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AIを活用したシステム開発 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">AIを活用したシステム開発と技術分野</h2>
+            <p class="section-subtitle">AI技術の進化に伴い、システム開発の領域はAI関連の受託開発やソリューション構築へと拡大しています</p>
+            
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    AI受託開発
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8;">
+                    AI技術を活用したシステムやソリューションの受託開発サービスが存在します。DXを推進するAIポータルメディア「AIsmiley」では、多岐にわたるAI技術・サービスが紹介されています。
+                </p>
+            </div>
+
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    AI関連の技術・サービス分類
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    システム開発と深く関連するAIの技術領域には以下のものが含まれます：
+                </p>
+
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; background: white;">
+                        <thead>
+                            <tr style="background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%); color: white;">
+                                <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2); width: 30%;">技術・サービス分野</th>
+                                <th style="padding: 1.2rem; text-align: left; font-weight: 600; border: 1px solid rgba(255,255,255,0.2);">概要（関連項目）</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">画像認識・画像解析</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">外観検査、異常検知・予知保全、AIカメラ</td>
+                            </tr>
+                            <tr style="background: var(--color-bg-gray);">
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">生成AI</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">LLM・大規模言語モデル、言語生成AI、画像生成AI、音声生成AI、動画生成AI</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">対話型AI</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">チャットボット（社内、LINE連携、コールセンター）、ボイスボット</td>
+                            </tr>
+                            <tr style="background: var(--color-bg-gray);">
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">自然言語処理 (NLP)</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">感情認識・解析</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">AIモデル作成</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">教師データ作成、アノテーション、PoC検証</td>
+                            </tr>
+                            <tr style="background: var(--color-bg-gray);">
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">データ活用</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">データ分析、需要予測、レコメンド</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">自動化・業務効率化</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">AI-OCR、RPA（Windows作業の自動化RPAツール）、業務自動化支援、AI・自動受付システム</td>
+                            </tr>
+                            <tr style="background: var(--color-bg-gray);">
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">システム構築</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">RAG構築、検索システム、FAQシステム</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border); font-weight: 600;">その他</td>
+                                <td style="padding: 1rem; border: 1px solid var(--color-border);">エッジAI、バーチャルヒューマン、IoT、生体認証、声紋認証</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 開発を成功に導く関連ソリューション -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">開発を成功に導く関連ソリューション</h2>
+            <p class="section-subtitle">システム開発やプロダクト開発を成功させるためには、開発工程だけでなく、戦略立案、デザイン、インフラ、および継続的な成長戦略の支援が不可欠です</p>
+            
+            <!-- 3.1. デザインと顧客体験 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    デザインと顧客体験
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2.5rem;">
+                    <strong>デザインと技術の融合</strong>による最高のプロダクトを提供し、ユーザーのエンゲージメントを最大化することで、持続可能なブランドとより良い顧客体験を実現し、事業を成功に導きます。当社独自の手法として「5x」があり、体験価値を最大化します。
+                </p>
+
+                <h4 style="font-size: 1.2rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">UX/UIデザイン</h4>
+                <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; margin-bottom: 2.5rem;">
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 1rem;">
+                        さまざまなリサーチ手法を駆使し、ユーザーの課題やニーズを突き止め、日常に溶け込むデザインに昇華させます。"人間らしさ"を重視したデザインプロセスは、あらゆる分野に適用可能です。
+                    </p>
+                    <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+                        <div style="background: white; padding: 0.8rem 1.5rem; border-radius: 6px; border: 2px solid var(--color-primary); color: var(--color-text); font-weight: 500;">UXデザイン</div>
+                        <div style="background: white; padding: 0.8rem 1.5rem; border-radius: 6px; border: 2px solid var(--color-primary); color: var(--color-text); font-weight: 500;">UIデザイン</div>
+                    </div>
+                </div>
+
+                <h4 style="font-size: 1.2rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">ブランディング</h4>
+                <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px;">
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 1rem;">
+                        ユーザーのエンゲージメントを高める施策を総合的にサポートし、共感・信頼を得られるアプリ／サービスを通してブランドの新しい価値を生み出します。
+                    </p>
+                    <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+                        <div style="background: white; padding: 0.8rem 1.5rem; border-radius: 6px; border: 2px solid var(--color-accent); color: var(--color-text); font-weight: 500;">ブランド戦略立案</div>
+                        <div style="background: white; padding: 0.8rem 1.5rem; border-radius: 6px; border: 2px solid var(--color-accent); color: var(--color-text); font-weight: 500;">ブランドアイデンティティの構築</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3.2. クラウドとインフラ -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    クラウドとインフラ
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    システムの基盤となるインフラ構築や、クラウド環境の最適化は、プロダクトの成功に大きく寄与します。
+                </p>
+
+                <div style="display: grid; gap: 2rem;">
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">クラウド開発支援</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 1rem;">
+                            UXに影響を及ぼすパフォーマンス、ユーザビリティ、リテンションの観点から、クラウド化による応答速度向上を支援します。
+                        </p>
+                        <div style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
+                            <span style="background: white; padding: 0.5rem 1rem; border-radius: 4px; font-size: 1rem; color: var(--color-text);">デジタル戦略アセスメント</span>
+                            <span style="background: white; padding: 0.5rem 1rem; border-radius: 4px; font-size: 1rem; color: var(--color-text);">クラウドアーキテクチャデザイン</span>
+                        </div>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-accent);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">インフラ構築</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            AWS中心のサーバーインフラ開発を提供します。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px; border-left: 4px solid #F59E0B;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">クラウドサービス支援</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            既存環境のクラウド移行やクラウドサービスの選定、複数間システムのデータ連携など、クラウドにて解決が可能な部分をご支援します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3.3. 開発後の成長と改善支援 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); margin-bottom: 3rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    開発後の成長と改善支援
+                </h3>
+                
+                <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                    プロダクトの価値を持続的に高めるための支援も提供されています。
+                </p>
+
+                <div style="display: grid; gap: 2rem;">
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">プロダクトマネジメント</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            プロダクトの成長戦略を描き、検証と改善を繰り返す伴走型のプロダクトマネジメントを支援します。特にモバイルアプリケーションの分野におけるノウハウは強みです。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">グロースマーケティング</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            「集客」と「ユーザーの定着化」を重視し、現状分析と課題抽出に基づき、最適な戦略と施策を提案します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3.4. 既存システムに対する診断 -->
+            <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 3px solid var(--color-primary);">
+                    既存システムに対する診断
+                </h3>
+                
+                <div style="display: grid; gap: 2rem;">
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">ITセカンドオピニオン</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            現在利用されているシステム、またはこれから導入が検討されているシステムに対して、最適な判断となっているかの診断を提供します。
+                        </p>
+                    </div>
+
+                    <div style="background: var(--color-bg-gray); padding: 2rem; border-radius: 8px;">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 0.8rem;">データ移行支援</h4>
+                        <p style="color: var(--color-text-light); line-height: 1.8;">
+                            サーバーやクラウド上にあるメール・文書・画像・動画・WEBサイトなど、あらゆるデータの移行をサポートします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- システム開発の実績分野 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">システム開発の実績分野</h2>
+            <p class="section-subtitle">当社は、多岐にわたる業界でシステム/プロダクト開発の実績を有しています</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; max-width: 1000px; margin: 0 auto;">
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-top: 4px solid var(--color-primary);">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🚗</div>
+                    <h3 style="font-size: 1rem; font-weight: 600; color: var(--color-text);">モビリティ</h3>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-top: 4px solid var(--color-primary);">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">💰</div>
+                    <h3 style="font-size: 1rem; font-weight: 600; color: var(--color-text);">ファイナンス</h3>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-top: 4px solid var(--color-accent);">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🎮</div>
+                    <h3 style="font-size: 1rem; font-weight: 600; color: var(--color-text);">エンターテインメント</h3>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-top: 4px solid var(--color-accent);">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🛒</div>
+                    <h3 style="font-size: 1rem; font-weight: 600; color: var(--color-text);">流通・小売</h3>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-top: 4px solid #F59E0B;">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🏭</div>
+                    <h3 style="font-size: 1rem; font-weight: 600; color: var(--color-text);">製造</h3>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-top: 4px solid #F59E0B;">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🏗️</div>
+                    <h3 style="font-size: 1rem; font-weight: 600; color: var(--color-text);">建設・不動産</h3>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-top: 4px solid #8B5CF6;">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📰</div>
+                    <h3 style="font-size: 1rem; font-weight: 600; color: var(--color-text);">メディア</h3>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); text-align: center; border-top: 4px solid #8B5CF6;">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">☕</div>
+                    <h3 style="font-size: 1rem; font-weight: 600; color: var(--color-text);">ライフスタイル</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 実績と信頼性 -->
+    <section class="section" style="background: var(--color-bg-gray);">
+        <div class="container">
+            <h2 class="section-title">着実に積み上げる開発実績</h2>
+            <p class="section-subtitle">2023年7月創業、中小企業を中心に50社以上のシステム開発実績</p>
+            
+            <!-- 画像右+説明文左の横並びレイアウト -->
+            <div style="display: flex; gap: 4rem; align-items: center; background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <div style="flex: 1;">
+                    <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">確かな技術力と実績</h3>
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 1.5rem;">
+                        創業以来、中小企業を中心に<strong style="color: #EC4899; font-size: 1.1rem;">50社以上</strong>のシステム開発実績を積み重ねてきました。製造業、小売業、サービス業など幅広い業種でのシステム開発経験があり、お客様の業務課題に寄り添った丁寧な開発を心がけています。
+                    </p>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="color: var(--color-accent); margin-right: 0.5rem;">✓</span>
+                            <span style="color: var(--color-text-light);">専門QAエンジニアによる品質保証</span>
+                        </li>
+                        <li style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="color: var(--color-accent); margin-right: 0.5rem;">✓</span>
+                            <span style="color: var(--color-text-light);">継続率95%の高い顧客満足度</span>
+                        </li>
+                    </ul>
+                </div>
+                <div style="flex: 0 0 45%;">
+                    <img src="<?php echo advance_get_image_url('other-01.jpg'); ?>" alt="着実に積み上げる開発実績を示すイメージ" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 制作フロー -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">開発フローと品質保証</h2>
+            <p class="section-subtitle">アジャイル開発とPDCAサイクルで高品質なシステムを提供</p>
+            
+            <!-- 画像左+説明文右の横並びレイアウト -->
+            <div style="display: flex; gap: 4rem; align-items: center; background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+                <div style="flex: 0 0 45%;">
+                    <img src="<?php echo advance_get_image_url('other-02.jpg'); ?>" alt="アジャイル開発フローとPDCAサイクルのイメージ" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="font-size: 1.5rem; font-weight: 600; color: var(--color-text); margin-bottom: 1.5rem;">段階的な開発プロセス</h3>
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 1.5rem;">
+                        アジャイル開発手法を採用し、スプリント単位で機能を実装・テスト・改善を繰り返します。お客様のフィードバックを迅速に反映し、ビジネス環境の変化にも柔軟に対応できる開発体制です。
+                    </p>
+                    <div style="background: var(--color-bg-gray); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                        <h4 style="font-size: 1.1rem; font-weight: 600; color: var(--color-text); margin-bottom: 1rem;">開発の5つのステップ</h4>
+                        <ol style="color: var(--color-text-light); line-height: 1.8; padding-left: 1.5rem;">
+                            <li style="margin-bottom: 0.5rem;">要件定義・課題ヒアリング</li>
+                            <li style="margin-bottom: 0.5rem;">設計・プロトタイプ作成</li>
+                            <li style="margin-bottom: 0.5rem;">開発・スプリント実装</li>
+                            <li style="margin-bottom: 0.5rem;">品質保証・テスト</li>
+                            <li style="margin-bottom: 0.5rem;">本番リリース・運用保守</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section service-cta">
+        <div class="container">
+            <!-- CTA画像+文字の横並びレイアウト -->
+            <div style="display: flex; gap: 4rem; align-items: center; background: linear-gradient(135deg, #FCE7F3 0%, #FBCFE8 100%); padding: 4rem; border-radius: 12px;">
+                <div style="flex: 0 0 40%;">
+                    <img src="<?php echo advance_get_image_url('other-03.jpg'); ?>" alt="システム開発のご相談イメージ" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
+                </div>
+                <div style="flex: 1;">
+                    <h2 style="font-size: 2rem; font-weight: 700; color: var(--color-text); margin-bottom: 1rem;">システム開発のご相談はこちら</h2>
+                    <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: 2rem;">
+                        業務システム開発からプロダクト開発、AI活用まで。<br>
+                        まずはお気軽にご相談ください。無料でお見積もりいたします。
+                    </p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="<?php echo esc_url( get_permalink( get_page_by_path( 'contact' ) ) ); ?>" class="btn btn-primary btn-lg">お問い合わせ・無料相談</a>
+                        <a href="<?php echo esc_url( home_url( '/#services' ) ); ?>" class="btn btn-outline btn-lg">事業内容一覧へ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+
+<?php get_footer(); ?>
